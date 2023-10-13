@@ -66,3 +66,23 @@ section p {
 section ul li {
     font-size: 24px;
 }
+
+section{
+   .cite-author { 
+      text-align        : right; 
+   }
+   .cite-author:after {   
+      color             : #f87ca1;
+      font-size         : 130%;
+      font-style        : italic;
+      font-weight       : bold;
+      font-family       : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      padding-right     : 130px;
+   }
+   .cite-author[data-text]:after {
+      content           : " - "attr(data-text) " - ";      
+   }
+   .cite-author p {    
+      padding-bottom : 40px
+   } 
+}
