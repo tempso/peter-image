@@ -54,6 +54,22 @@ section::before {
   top: 10px;
 }
 
+/*
+<style>
+footer {
+  /* Unset default placing inherited from the built-in theme */
+  left: auto;
+  right: auto;
+  top: auto;
+  bottom: auto;
+
+  /* Place to right-bottom */
+  right: 20px;
+  top: 20px;
+}
+</style>
+*/
+
 section a {
       font-size: 30px;
 }
