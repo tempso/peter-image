@@ -67,4 +67,6 @@ section p {
 section ul li {
     font-size: 24px;
 }
-
+section table {
+  font-size: 17px;
+}
