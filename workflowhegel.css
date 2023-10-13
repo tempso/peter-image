@@ -69,20 +69,20 @@ section ul li {
 
 section{
    .cite-author { 
-      text-align        : right; 
+      text-align: right; 
    }
    .cite-author:after {   
-      color             : #f87ca1;
-      font-size         : 130%;
-      font-style        : italic;
-      font-weight       : bold;
-      font-family       : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      padding-right     : 130px;
+      color: #f87ca1;
+      font-size: 130%;
+      font-style: italic;
+      font-weight: bold;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      padding-right: 130px;
    }
    .cite-author[data-text]:after {
-      content           : " - "attr(data-text) " - ";      
+      content: " - "attr(data-text) " - ";      
    }
    .cite-author p {    
-      padding-bottom : 40px
+      padding-bottom: 40px
    } 
 }
