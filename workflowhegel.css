@@ -40,6 +40,7 @@ section table {
   }
 
 /*-----------------------PETER----------------------------*/
+
 section::before {
   display: block;
   content: '';
@@ -66,3 +67,4 @@ section p {
 section ul li {
     font-size: 24px;
 }
+
